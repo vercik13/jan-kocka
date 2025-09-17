@@ -1,18 +1,14 @@
 <template>
-  <footer class="relative text-white bg-cover bg-center bg-[url('/bg-HP.webp')]">
-    <!-- tmavý overlay -->
-    <div class="absolute inset-0 bg-black/60"></div>
-
-    <!-- obsah -->
+  <footer class="bg-[#212947] text-white">
     <div class="relative container mx-auto px-6 py-12 md:py-16">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left text-sm">
         <div>
           <nav class="uppercase">
             <ul class="space-y-2">
               <li><NuxtLink to="/" class="hover:text-gray-300">Úvod</NuxtLink></li>
               <li><NuxtLink to="/sluzby" class="hover:text-gray-300">Nabídka služeb</NuxtLink></li>
               <li><NuxtLink to="/galerie" class="hover:text-gray-300">Galerie</NuxtLink></li>
-              <li><NuxtLink to="/reference" class="hover:text-gray-300">Reference</NuxtLink></li>
+              <li><NuxtLink to="/#reference" class="hover:text-gray-300">Reference</NuxtLink></li>
               <li><NuxtLink to="/kontakt" class="hover:text-gray-300">Kontakt</NuxtLink></li>
             </ul>
           </nav>
@@ -38,9 +34,12 @@
           <p>739 175 831</p>
           <p>info@jan-kocka.cz</p>
         </div>
+
       </div>
     </div>
 
-    <p class="relative text-center py-4">© 2025 Jan Kočka – Všechna práva vyhrazena</p>
+    <p class="relative text-center py-4 border-t border-gray-700 text-sm">
+      © 2025 Jan Kočka – Všechna práva vyhrazena
+    </p>
   </footer>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="container mx-auto py-12 text-center">
+  <section id="about" class="section">
     <h2 class="text-3xl font-bold mb-4 uppercase">O firmě</h2>
     <p class="text-lg px-4 sm:px-6 lg:px-36 ">
       Cílem naší firmy je nabídnout zákazníkovi celkové řešení jejich projektu. 

@@ -42,7 +42,7 @@ const leave = (el) => {
   <transition name="slide-right">
     <div
       v-if="isOpen"
-      class="fixed top-0 right-0 w-80 h-full bg-gray-800 text-white z-50 flex flex-col justify-start pt-20 items-center uppercase"
+      class="fixed top-0 right-0 w-80 h-full bg-[#212947] text-white z-50 flex flex-col justify-start pt-20 items-center uppercase"
     >
       <!-- Close button -->
       <button
