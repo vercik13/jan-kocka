@@ -21,7 +21,7 @@ html {
 }
 
 .btn-primary {
-  @apply bg-[#15204a] hover:bg-[#34447d] text-white px-10 py-3 rounded-lg text-lg transition-colors;
+  @apply bg-[#15204a] hover:bg-[#34447d] text-white px-10 py-3 rounded-full text-lg transition-colors;
 }
 
 .menu-link {

@@ -9,12 +9,20 @@ const activeCategory = ref('Vše')
 const images = [
   { src: '/obrabeni-ukazka.webp', title: 'CNC', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka1.webp', title: 'Vzor', category: 'Kovoobrábění' },
-  { src: '/obrabeni-ukazka1.webp', title: 'Vzor', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka2.webp', title: 'Vzor', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka3.webp', title: 'Vzor', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka4.webp', title: 'Vzor', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka5.webp', title: 'Vzor', category: 'Kovoobrábění' },
   { src: '/obrabeni-ukazka6.webp', title: 'Vzor', category: 'Kovoobrábění' },
+  { src: '/svarovani-ukazka.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka1.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka2.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka3.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka5.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka6.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka7.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka8.webp', title: 'Vzor', category: 'Svařování' },
+  { src: '/svarovani-ukazka9.webp', title: 'Vzor', category: 'Svařování' }
 ]
 
 const filteredImages = computed(() => {
@@ -47,12 +55,14 @@ const filteredImages = computed(() => {
         @click="activeCategory = cat"
         class="px-5 py-2 rounded-full border transition"
         :class="activeCategory === cat
-          ? 'bg-black text-white border-black'
-          : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'"
+          ? 'bg-[#15204a] text-white border-[#15204a]'
+          : 'bg-white text-[#15204a] border-[#15204a] hover:bg-gray-100'"
       >
         {{ cat }}
       </button>
     </div>
+
+
 
     <!-- Galerie -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
