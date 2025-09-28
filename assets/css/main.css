@@ -34,3 +34,18 @@ html {
 .section {
   @apply container mx-auto px-6 py-16 md:py-24 text-center;
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}

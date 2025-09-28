@@ -1,5 +1,7 @@
 <template>
   <NuxtLayout>
-    <NuxtPage />
+     <Transition name="page" mode="out-in">
+        <NuxtPage />
+     </Transition>
   </NuxtLayout>
 </template>

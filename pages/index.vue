@@ -8,6 +8,7 @@ import Contact from '@/components/contact/Contact.vue'
 
 <template>
   <div>
+    <HeroSlider class="h-[80vh]" />
     <About />
     <Services />
     <GallerySlider />
